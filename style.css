@@ -1,0 +1,14 @@
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+
+h1 {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    border-bottom: solid 1px lightblue;
+    padding: 25px 0;
+    font-size: 4rem;
+/*    font-weight: 100;*/
+}
