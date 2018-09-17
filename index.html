@@ -9,8 +9,9 @@
     <body>
         <h1 class="tooltip">
             sensation
-            <audio controls>
-                <source src="sensation.m4a">
+            <button onclick="playSound(sensation)"><img src="speaker3.png"></button>
+            <audio id="sensation">
+                <source src="sensation.m4a">  
             </audio>
             <span class="tooltiptext">The Pigeon Finds a Hot Dog!</span>
         </h1>
@@ -21,5 +22,6 @@
             </audio>
             <span class="tooltiptext">The Pigeon Finds a Hot Dog!</span>
         </h1>
+        <script src="app.js"></script>
     </body>
 </html>
