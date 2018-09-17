@@ -21,3 +21,8 @@ h1 {
     text-align: center;
     margin: 0 0 -16px 0;
 }
+
+button {
+    border: none;
+    background-color: inherit;
+}
