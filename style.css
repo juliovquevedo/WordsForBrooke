@@ -31,4 +31,8 @@ button {
     h1 {
         width: 100%;
     }
+    
+    .tooltip:hover .tooltiptext {
+        display: none;
+    }
 }
