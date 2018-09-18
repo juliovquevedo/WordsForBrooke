@@ -13,10 +13,6 @@ h1 {
     font-size: 4rem;
 }
 
-span {
-    padding-right: 52px;
-}
-
 .tooltip .tooltiptext {
     display: none;
 }
