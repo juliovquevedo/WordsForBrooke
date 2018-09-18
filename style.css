@@ -13,6 +13,10 @@ h1 {
     font-size: 4rem;
 }
 
+span {
+    padding-right: 52px;
+}
+
 .tooltip .tooltiptext {
     display: none;
 }
@@ -33,13 +37,13 @@ button {
     h1 {
         width: 70%;
     }
-    
-    .tooltip:hover .tooltiptext {
-        display: none;
-    }
 }
 
 @media only screen and (max-width: 700px) {
+    body {
+        background-size: 100% 100%;
+    }
+    
     h1 {
         width: 100%;
     }
