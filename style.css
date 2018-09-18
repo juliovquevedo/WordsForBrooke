@@ -7,8 +7,12 @@ h1 {
     width: 30%;
     margin: auto;
     text-align: center;
-    padding: 35px 0;
+    padding: 35px 0 35px 52px;
     font-size: 4rem;
+}
+
+span {
+    padding-right: 52px;
 }
 
 .tooltip .tooltiptext {
@@ -26,7 +30,6 @@ button {
     border: none;
     background-color: inherit;
 }
-
 
 @media only screen and (max-width: 700px) {
     h1 {
