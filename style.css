@@ -33,6 +33,16 @@ button {
     background-color: inherit;
 }
 
+@media only screen and (min-width: 1200px) {
+    img {
+        visibility: hidden;
+    }
+    
+    h1:hover img {
+        visibility: visible;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     h1 {
         width: 50%;
